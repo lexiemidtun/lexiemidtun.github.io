@@ -1,0 +1,34 @@
+/*FOOTER*/
+footer{
+	width: 100%;
+	height: 5vh;
+	min-height: 4vh;
+	overflow: hidden;
+	display: flex;
+	background-color: #e0e0e0;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em;
+	position: sticky;
+	
+	text-decoration: none;
+}
+
+footer a{
+	color: #FFFFFF00;
+}
+
+footer img{
+	height: 3vh;
+	width: auto;
+}
+
+.footerLeft{
+	float: left;
+}
+
+.footerRight{
+	float:right;
+}
+
+
