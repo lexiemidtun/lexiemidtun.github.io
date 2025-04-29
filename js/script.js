@@ -1,4 +1,5 @@
 //JavaScript code (Internal)
+/*
 			console.log("Hello World!");
 			
 			//Get reference to paragraph using its id
@@ -21,3 +22,4 @@
 					clicked=0;
 					}
 				});
+				*/
