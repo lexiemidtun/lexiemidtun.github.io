@@ -9,3 +9,16 @@ body{
 	width: 100%;
 }
 
+
+/*RESUME PDF*/
+.resumePDF{
+		display: flex;
+		justify-content: center;
+		padding: 2em;
+		height: 85vh;
+}
+.resumePDF object{
+	width: 100%;
+	height: 100%;
+
+}
