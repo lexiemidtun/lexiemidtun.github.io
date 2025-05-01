@@ -1,10 +1,40 @@
-/* General Reset */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+main{
+	width: 90%;
+	margin: 2em auto;
 }
 
-body{
-	width: 100%;
+/*IMAGE CONTAINER*/
+.imageTextContainer{
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.imageTextContainer img{
+	width:auto;
+	max-height: 35vh;
+	float: left;
+	margin-right: 1em;
+}
+
+.textRight#name{
+	font-size: clamp(5px, 10vw, 30px);
+	font-weight: 800;
+}
+
+.line{
+	margin: .5em 0;
+}
+
+.textRight#degree{
+	font-size: clamp(5px, 8vw, 18px);
+	font-weight: 500;
+	padding-top:.25em;
+}
+
+
+/*TEXT BELOW IMAGE*/
+.textBelow{
+	font-size: clamp(4px, 5vw, 18px);
+	line-height: 1.25em;
+	
 }
