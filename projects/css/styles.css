@@ -1,11 +1,38 @@
-/* General Reset */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+.projectContainer{
+	overflow: hidden;
+	margin-bottom: 2em;
 }
 
-body{
-	width: 100%;
+.projectContainer img{
+	width:38vw;
+	height: auto;
+	max-width: 300px;
+	float: left;
+	margin-right: 1em;
+	
+	
 }
 
+.textRight{
+	font-weight: 600;
+	padding-bottom: .25em;
+}
+
+.textBelow{
+	padding-top:.75em;
+	font-size: clamp(4px, 5vw, 18px);
+	line-height: 1.25em;
+	clear: left;
+}
+
+h2{
+	font-size: clamp(10px, 10vw, 30px);
+	margin-bottom:.75em;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+}

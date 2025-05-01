@@ -1,21 +1,10 @@
-/* General Reset */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body{
-	width: 100%;
-}
-
 
 /*RESUME PDF*/
 .resumePDF{
 		display: flex;
 		justify-content: center;
 		padding: 2em;
-		height: 85vh;
+		height: 80vh;
 }
 .resumePDF object{
 	width: 100%;
